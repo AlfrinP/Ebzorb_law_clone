@@ -3,6 +3,7 @@ import thumb1 from "../assets/why_us/1.png";
 import thumb2 from "../assets/why_us/2.png";
 import thumb3 from "../assets/why_us/3.png";
 import thumb4 from "../assets/why_us/4.png";
+import meet from "../assets/why_us/meet.png";
 
 function WhyUs() {
   return (
@@ -15,20 +16,20 @@ function WhyUs() {
           <div className="w-1/2 h-full center flex-col justify-evenly gap-2">
             <ul className="center flex-col gap-5">
               <li>
-                <p className="text-xl leading-relaxed">
+                <p className="text-lg">
                   Edzorb's mission: Equal access to top-notch study materials
                   for aspiring judicial exam candidates, achieving top 10 ranks
                   through our guidance and your dedication.
                 </p>
               </li>
               <li>
-                <p className="text-xl leading-relaxed">
+                <p className="text-lg">
                   We want to make sure that every aspirant gets access to the
                   best study material there is.
                 </p>
               </li>
               <li>
-                <ul className="list-disc text-xl">
+                <ul className="list-disc text-lg">
                   <li>
                     Give learners access to the highest quality digital learning
                     materials and resources.
@@ -68,7 +69,7 @@ function WhyUs() {
             </div>
           </div>
           <div className="w-1/2 h-full">
-            <img />
+            <img src={meet}/>
           </div>
         </div>
       </div>
